@@ -10,6 +10,16 @@ As you begin your journey in the world of programming, it's important to remembe
 
 There are endless possibilities for what you can create with programming. From simple websites to complex software, the sky is the limit. As you learn and grow as a programmer, you'll discover new ways to solve problems and bring your ideas to life. So welcome to the world of programming – we're glad you're here!
  
+ # websites that offer coding challenges and competitions:
+ HackerRank: https://www.hackerrank.com/
+CodeForces: https://codeforces.com/
+LeetCode: https://leetcode.com/
+TopCoder: https://www.topcoder.com/
+CodeChef: https://www.codechef.com/
+ 
+ These websites offer a variety of coding challenges, ranging from beginner level to advanced. They also often have online communities where you can connect with other programmers and discuss strategies and solutions. Participating in coding challenges can be a great way to improve your programming skills and stay up-to-date on the latest technologies.
+
+ 
 # Website to Learn Coding
 Codecademy: https://www.codecademy.com/
 Khan Academy: https://www.khanacademy.org/
