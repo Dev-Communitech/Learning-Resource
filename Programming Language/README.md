@@ -1,4 +1,4 @@
-# welcome to world of programming
+# welcome to world of programming https://www.devcommunit.tech/pages/learn.html
 
 ou're interested in learning how to code and create your own software or apps. Programming is a rewarding and exciting field that offers endless possibilities for creativity and problem-solving. With the right resources and determination, anyone can learn how to code.
 
@@ -9,3 +9,10 @@ Once you've chosen a programming language, there are many resources available to
 As you begin your journey in the world of programming, it's important to remember that learning to code takes time and practice. Don't get discouraged if you struggle at first – programming is a complex skill that requires patience and persistence. Keep working at it and you'll see progress over time.
 
 There are endless possibilities for what you can create with programming. From simple websites to complex software, the sky is the limit. As you learn and grow as a programmer, you'll discover new ways to solve problems and bring your ideas to life. So welcome to the world of programming – we're glad you're here!
+ 
+# Website to Learn Coding
+Codecademy: https://www.codecademy.com/
+Khan Academy: https://www.khanacademy.org/
+Coursera: https://www.coursera.org/
+edX: https://www.edx.org/
+Code.org: https://code.org/
