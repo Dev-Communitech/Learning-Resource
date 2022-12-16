@@ -24,10 +24,10 @@ Python is used in many different industries, including finance, healthcare, educ
 Python has a strong emphasis on code readability and style. The Python community has established a set of guidelines called PEP 8 that recommends a specific style for writing Python code, including guidelines for naming variables, formatting code, and commenting.
 
 
- Here is a simple example of a Python program that prints a message to the console:
+ # Here is a simple example of a Python program that prints a message to the console:
 
 
-# Print a message to the console
+ Print a message to the console
 ```py
 print("Hello, world!")
 ```
