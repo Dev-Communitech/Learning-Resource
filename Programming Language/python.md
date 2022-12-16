@@ -11,7 +11,7 @@ Overall, Python is a versatile and widely used programming language that is well
 
  
  
- Here are some additional points about Python:
+ # Here are some additional points about Python:
 
 Python is an interpreted language, which means that it is executed at runtime by an interpreter rather than being compiled into machine code. This makes it easy to test and debug code, as well as to run the same code on different platforms without the need for recompilation.
 
