@@ -9,3 +9,76 @@ C++ is also a statically-typed language, which means that variables must be decl
 In addition to its object-oriented and statically-typed features, C++ also has a number of other features that make it a popular choice for a wide range of programming tasks. These include support for procedural programming, a rich standard library, and low-level control over system resources.
 
 C++ is widely used in a variety of contexts, including operating systems, web browsers, games, and scientific applications. It is also the primary language used in the development of the Linux kernel, and is commonly used in the development of other open-source software projects.
+
+# A Simple C++ Program That Prompts The User To Enter Their Name And Then Prints It to The Screen:
+
+```c++
+#include <iostream>
+#include <string>
+
+int main() {
+  std::string name;
+
+  std::cout << "Enter your name: ";
+  std::cin >> name;
+
+  std::cout << "Hello, " << name << "!" << std::endl;
+
+  return 0;
+}
+```
+This program includes two headers, iostream and string. The iostream header provides input and output stream objects, such as cin and cout, which are used to read from and write to the standard input and output streams, respectively. The string header provides the string class, which is used to store and manipulate string data.
+
+The main function is the entry point of the program. It begins by declaring a variable of type string called name. The cout object is then used to output a prompt to the user asking them to enter their name. The cin object is then used to read the user's input and store it in the name variable. Finally, the program outputs a greeting to the user using the cout object and the name variable.
+
+# A program that calculates the area and perimeter of a rectangle:
+
+```c++
+#include <iostream>
+
+int main() {
+  double width, height;
+
+  std::cout << "Enter the width of the rectangle: ";
+  std::cin >> width;
+
+  std::cout << "Enter the height of the rectangle: ";
+  std::cin >> height;
+
+  double area = width * height;
+  double perimeter = 2 * (width + height);
+
+  std::cout << "The area of the rectangle is: " << area << std::endl;
+  std::cout << "The perimeter of the rectangle is: " << perimeter << std::endl;
+
+  return 0;
+}
+```
+
+# A program that converts temperatures between Celsius and Fahrenheit:
+```C++
+#include <iostream>
+
+int main() {
+  double temperature;
+  char unit;
+
+  std::cout << "Enter a temperature: ";
+  std::cin >> temperature;
+
+  std::cout << "Enter the unit of the temperature (C or F): ";
+  std::cin >> unit;
+
+  if (unit == 'C') {
+    double fahrenheit = (temperature * 9.0 / 5.0) + 32;
+    std::cout << temperature << "°C is " << fahrenheit << "°F." << std::endl;
+  } else if (unit == 'F') {
+    double celsius = (temperature - 32) * 5.0 / 9.0;
+    std::cout << temperature << "°F is " << celsius << "°C." << std::endl;
+  } else {
+    std::cout << "Invalid unit." << std::endl;
+  }
+
+  return 0;
+}
+```
