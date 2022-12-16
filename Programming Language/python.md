@@ -10,7 +10,7 @@ In addition to its simplicity, Python is also very powerful. It can be used to b
 Overall, Python is a versatile and widely used programming language that is well-suited for many different types of development tasks. Whether you are just starting out with programming or are an experienced developer, Python is definitely worth considering.
 
 
-```py
+
 <div class="highlight">
     <pre>
         <code>...</code>
