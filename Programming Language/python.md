@@ -8,3 +8,12 @@ One of the main reasons Python is so popular is because it is easy to learn and 
 In addition to its simplicity, Python is also very powerful. It can be used to build a wide range of applications, including web applications, desktop applications, scientific applications, and more. It also has a large, active community of developers and users, which means there is a wealth of resources and libraries available to help you get started and solve problems.
 
 Overall, Python is a versatile and widely used programming language that is well-suited for many different types of development tasks. Whether you are just starting out with programming or are an experienced developer, Python is definitely worth considering.
+
+
+```html
+<div class="highlight">
+    <pre>
+        <code>...</code>
+    </pre>
+</div>
+```
