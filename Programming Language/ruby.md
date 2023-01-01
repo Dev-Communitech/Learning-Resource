@@ -1,4 +1,4 @@
-#Ruby
+# Ruby
 Ruby is a popular programming language that is known for its simplicity, readability, and flexibility. It was created in the mid-1990s by Yukihiro "Matz" Matsumoto in Japan, and has since gained a large and active community of developers around the world.
 
 One of the key features of Ruby is its use of code blocks, which are chunks of code that can be passed as arguments to methods. This allows developers to write concise, expressive code and makes it easy to write code that is easy to read and understand.
