@@ -25,6 +25,16 @@ Write a program that prints the numbers from 1 to 100. For multiples of three, p
   end
 end
 ```
+Write a program that calculates the factorial of a number. The factorial of a number is the product of all the integers from 1 to that number. For example, the factorial of 5 is 5 * 4 * 3 * 2 * 1 = 120.
+```def factorial(n)
+  if n <= 1
+    1
+  else
+    n * factorial(n-1)
+  end
+end
+
+puts factorial(5)  # Output: 120
 
 
 
