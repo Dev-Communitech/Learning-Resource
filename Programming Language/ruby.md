@@ -35,7 +35,17 @@ Write a program that calculates the factorial of a number. The factorial of a nu
 end
 
 puts factorial(5)  # Output: 120
+```
 
+Write a program that takes an array of integers and returns a new array with the elements in reverse order.
+```def reverse_array(arr)
+  reversed_arr = []
+  arr.reverse_each { |i| reversed_arr << i }
+  return reversed_arr
+end
+
+puts reverse_array([1, 2, 3, 4])  # Output: [4, 3, 2, 1]
+```
 
 
 
