@@ -36,6 +36,15 @@ if (number % 2 === 0) {
 }
 ```
 Example 4: This program uses a function to calculate the factorial of a number (the product of all the positive integers from 1 up to the given number):
+```function factorial(n) {
+  if (n === 0) {
+    return 1;
+  }
+  return n * factorial(n - 1);
+}
+
+console.log(factorial(5)); // 120
+```
 
 
 
