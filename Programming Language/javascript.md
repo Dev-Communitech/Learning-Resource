@@ -65,6 +65,17 @@ let p = new Point(3, 4);
 console.log(p.distanceToOrigin()); // 5
 console.log(p.toString()); // (3, 4)
 ```
+Example 3: This program uses an array and a loop to calculate the average of a set of numbers:
+```let numbers = [1, 2, 3, 4, 5];
+let sum = 0;
+
+for (let i = 0; i < numbers.length; i++) {
+  sum += numbers[i];
+}
+
+let average = sum / numbers.length;
+console.log(average); // 3
+```
 
 
 
