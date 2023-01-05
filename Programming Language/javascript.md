@@ -45,6 +45,26 @@ Example 4: This program uses a function to calculate the factorial of a number (
 
 console.log(factorial(5)); // 120
 ```
+Example 5: This program uses an object to represent a point in 2D space and a class to define a set of methods for working with points:
+```class Point {
+  constructor(x, y) {
+    this.x = x;
+    this.y = y;
+  }
+
+  distanceToOrigin() {
+    return Math.sqrt(this.x * this.x + this.y * this.y);
+  }
+
+  toString() {
+    return "(" + this.x + ", " + this.y + ")";
+  }
+}
+
+let p = new Point(3, 4);
+console.log(p.distanceToOrigin()); // 5
+console.log(p.toString()); // (3, 4)
+```
 
 
 
