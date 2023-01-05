@@ -9,5 +9,9 @@ JavaScript is often used in conjunction with HTML and CSS to create web applicat
 
 JavaScript is a popular choice for web development because it is widely supported by modern web browsers and can be used to create a wide variety of applications. It is also a good choice for beginners because it is relatively easy to learn and use.
 
+# Here are a few more examples of simple programs in JavaScript:
+
+
+
 
 
