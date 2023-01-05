@@ -11,6 +11,31 @@ JavaScript is a popular choice for web development because it is widely supporte
 
 # Here are a few more examples of simple programs in JavaScript:
 
+Example 1: This program will prompt the user to enter their name and then greet them with a personalized message
+```
+
+var name = prompt("Please enter your name:");
+console.log("Hello, " + name + "!");
+```
+
+Example 2: This program will calculate the area of a rectangle with a width of 5 and a height of 10:
+```
+var width = 5;
+var height = 10;
+var area = width * height;
+console.log("The area of the rectangle is: " + area);
+```
+
+Example 3: This program will check if a number is even or odd:
+```
+var number = prompt("Please enter a number:");
+if (number % 2 === 0) {
+  console.log(number + " is even.");
+} else {
+  console.log(number + " is odd.");
+}
+```
+Example 4: This program uses a function to calculate the factorial of a number (the product of all the positive integers from 1 up to the given number):
 
 
 
