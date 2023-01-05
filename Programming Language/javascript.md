@@ -65,7 +65,7 @@ let p = new Point(3, 4);
 console.log(p.distanceToOrigin()); // 5
 console.log(p.toString()); // (3, 4)
 ```
-Example 3: This program uses an array and a loop to calculate the average of a set of numbers:
+Example 6: This program uses an array and a loop to calculate the average of a set of numbers:
 ```let numbers = [1, 2, 3, 4, 5];
 let sum = 0;
 
@@ -76,6 +76,8 @@ for (let i = 0; i < numbers.length; i++) {
 let average = sum / numbers.length;
 console.log(average); // 3
 ```
+
+JavaScript is a powerful and popular programming language that is widely used in web development. It is a client-side scripting language, which means that it is executed by the user's web browser rather than on a server. JavaScript is commonly used to add interactivity to web pages, control multimedia, animate graphics, and perform other interactive tasks.
 
 
 
