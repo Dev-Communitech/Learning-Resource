@@ -5,7 +5,8 @@ Dart is a programming language developed by Google. It is used to build web, mob
 Dart is a class-based, object-oriented language with a C-style syntax. It is dynamically-typed, meaning that you do not need to specify the type of a variable when you declare it. Instead, the type of a variable is determined at runtime.
 
 # Here is a simple example of a Dart program that prints a message
-```void main() {
+```
+void main() {
   print('Hello, World!');
 }
 ```
