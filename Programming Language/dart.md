@@ -23,3 +23,13 @@ Web development: Dart can be used to build web applications that run in modern w
 Tooling: Dart comes with a number of tools that make it easier to develop, test, and debug your applications. Some of these tools include a package manager, a test runner, and a debugger.
 
 Interoperability with JavaScript: You can use Dart to write code that can be called from JavaScript and vice versa, making it easy to integrate Dart code into a larger web application.
+
+# Dart function that takes two arguments and returns their sum:
+```
+int add(int x, int y) {
+  return x + y;
+}
+```
+
+This function, called add, takes two int arguments, x and y, and returns their sum as an int.
+
