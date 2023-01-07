@@ -9,3 +9,10 @@ print("Hello, World!")
 This program has a single line of code that uses the print function to print a string to the console.
 
 # Here is an example of a Swift function:
+```
+func greet(name: String) -> String {
+  return "Hello, \(name)!"
+}
+```
+This function, called greet, takes a single argument called name of type String and returns a String. It uses string interpolation to build a greeting message and returns it.
+
