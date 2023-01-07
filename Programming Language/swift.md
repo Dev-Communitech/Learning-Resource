@@ -16,3 +16,9 @@ func greet(name: String) -> String {
 ```
 This function, called greet, takes a single argument called name of type String and returns a String. It uses string interpolation to build a greeting message and returns it.
 
+ # Here is an example of how you might use this function in a Swift program:
+ ```
+ let greeting = greet(name: "Alice")
+print(greeting) // Prints "Hello, Alice!"
+```
+This program calls the greet function and stores the result in a constant called greeting. It then prints the greeting to the console.
