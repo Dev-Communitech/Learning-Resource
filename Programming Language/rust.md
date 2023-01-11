@@ -13,3 +13,48 @@ Safe concurrency: Rust's ownership and borrowing rules, combined with its suppor
 High-level abstractions: Rust has a number of features that make it easier to write code at a high level of abstraction, such as iterators, closures, and pattern matching.
 
 Compatibility with C: You can call C code from Rust and vice versa, making it easy to integrate Rust code into a larger system.
+
+# Here is an example of a "Hello, World!" program written in Rust:
+```
+fn main() {
+    println!("Hello, World!");
+}
+```
+This program defines a main function, which is the entry point of every Rust program. The println! macro is used to print a string to the console. The ! after the name indicates that this is a macro, not a function. Macros in Rust are similar to functions, but they generate code at compile-time rather than being called at runtime.
+
+# A simple command-line calculator that can perform addition, subtraction, multiplication, and division:
+```
+use std::io;
+
+fn main() {
+    let mut input = String::new();
+    let mut num1: f64 = 0.0;
+    let mut num2: f64 = 0.0;
+    let mut operation: char = ' ';
+
+    println!("Simple Calculator");
+    println!("Enter first number:");
+    io::stdin().read_line(&mut input).unwrap();
+    num1 = input.trim().parse().unwrap();
+    input.clear();
+
+    println!("Enter operation (+, -, *, /):");
+    io::stdin().read_line(&mut input).unwrap();
+    operation = input.trim().parse().unwrap();
+    input.clear();
+
+    println!("Enter second number:");
+    io::stdin().read_line(&mut input).unwrap();
+    num2 = input.trim().parse().unwrap();
+    input.clear();
+
+    match operation {
+        '+' => println!("{} + {} = {}", num1, num2, num1 + num2),
+        '-' => println!("{} - {} = {}", num1, num2, num1 - num2),
+        '*' => println!("{} * {} = {}", num1, num2, num1 * num2),
+        '/' => println!("{} / {} = {}", num1, num2, num1 / num2),
+        _   => println!("Invalid operation"),
+    }
+}
+```
+
