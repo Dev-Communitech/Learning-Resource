@@ -44,3 +44,8 @@ func main() {
     fmt.Println("Area of circle:", c.area())
 }
 ```
+This program defines a Circle struct that has three fields: x, y, and r, which represent the x and y coordinates of the center of the circle, and the radius of the circle, respectively. The program also defines a method named area for the Circle struct which calculates the area of the circle.
+
+The main function then creates a Circle variable with the given x, y, and r values and calls the area method. Finally, it prints out the calculated area.
+
+This program demonstrates some of the language's features such as struct, method, and calling external packages such as math package. 
