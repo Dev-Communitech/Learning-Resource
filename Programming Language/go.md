@@ -80,4 +80,8 @@ func main() {
     fmt.Println("\nExiting...")
 }
 ```
+This program defines two functions: printNumbers and printLetters, each of which will print out numbers and letters respectively with a 100ms sleep time.
 
+The main function starts both functions as goroutines using the go keyword and then waits for 1.1s before exiting. Because the two goroutines run concurrently, the numbers and letters will be printed in an interleaved fashion, with the exact output depending on the scheduling of the goroutines by the Go runtime.
+
+This example demonstrates how easy it is to create concurrent program in Go and it utilizes the powerful inbuilt concurrency primitives such as goroutine and channel. Goroutines are lightweight threads of execution that can run concurrently with other goroutines. With goroutines, it's easy to create concurrent programs that can perform multiple tasks at the same time. Go also provides other primitives like channels that allow goroutines to communicate and synchronize with each other.
