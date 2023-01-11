@@ -58,3 +58,16 @@ fn main() {
 }
 ```
 
+# A program that reads the contents of a text file and prints them to the console:
+```
+use std::fs::File;
+use std::io::prelude::*;
+
+fn main() {
+    let mut file = File::open("example.txt").expect("Could not open file");
+    let mut contents = String::new();
+    file.read_to_string(&mut contents).expect("Could not read file");
+    println!("{}", contents);
+}
+```
+
