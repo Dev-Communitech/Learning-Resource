@@ -49,3 +49,35 @@ This program defines a Circle struct that has three fields: x, y, and r, which r
 The main function then creates a Circle variable with the given x, y, and r values and calls the area method. Finally, it prints out the calculated area.
 
 This program demonstrates some of the language's features such as struct, method, and calling external packages such as math package. 
+
+#  here's another example in Go that demonstrates concurrency, one of the language's key features:
+```
+package main
+
+import (
+    "fmt"
+    "time"
+)
+
+func printNumbers() {
+    for i := 1; i <= 10; i++ {
+        fmt.Print(i, " ")
+        time.Sleep(time.Millisecond * 100)
+    }
+}
+
+func printLetters() {
+    for i := 'A'; i <= 'J'; i++ {
+        fmt.Print(string(i), " ")
+        time.Sleep(time.Millisecond * 100)
+    }
+}
+
+func main() {
+    go printNumbers()
+    go printLetters()
+    time.Sleep(time.Millisecond * 1110)
+    fmt.Println("\nExiting...")
+}
+```
+
