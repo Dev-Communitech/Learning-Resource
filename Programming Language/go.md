@@ -23,3 +23,24 @@ func main() {
 This program defines a main function, which is the entry point of the program. Inside the function, it calls the Println function from the fmt package to print the string "Hello, World!" to the console.
 
 # here is a more complex example in Go, which demonstrates some of the language's features:
+```
+package main
+
+import (
+    "fmt"
+    "math"
+)
+
+type Circle struct {
+    x, y, r float64
+}
+
+func (c *Circle) area() float64 {
+    return math.Pi * c.r * c.r
+}
+
+func main() {
+    c := Circle{x: 0, y: 0, r: 5}
+    fmt.Println("Area of circle:", c.area())
+}
+```
