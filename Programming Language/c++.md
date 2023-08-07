@@ -55,30 +55,4 @@ int main() {
 }
 ```
 
-# A program that converts temperatures between Celsius and Fahrenheit:
-```C++
-#include <iostream>
-
-int main() {
-  double temperature;
-  char unit;
-
-  std::cout << "Enter a temperature: ";
-  std::cin >> temperature;
-
-  std::cout << "Enter the unit of the temperature (C or F): ";
-  std::cin >> unit;
-
-  if (unit == 'C') {
-    double fahrenheit = (temperature * 9.0 / 5.0) + 32;
-    std::cout << temperature << "°C is " << fahrenheit << "°F." << std::endl;
-  } else if (unit == 'F') {
-    double celsius = (temperature - 32) * 5.0 / 9.0;
-    std::cout << temperature << "°F is " << celsius << "°C." << std::endl;
-  } else {
-    std::cout << "Invalid unit." << std::endl;
-  }
-
-  return 0;
-}
 ```
